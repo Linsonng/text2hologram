@@ -7,3 +7,22 @@
 # Ignore image examples
 *.png
 *.jpg
+CGHoutput/data.pt
+CGHoutput/depth.png
+CGHoutput/phase_0000.png
+CGHoutput/phase_grating_0000.png
+CGHoutput/recon_0000.png
+CGHoutput/recon_0001.png
+CGHoutput/recon_0002.png
+CGHoutput/recon_0003.png
+CGHoutput/recon_0004.png
+CGHoutput/recon_0005.png
+CGHoutput/target.png
+CGHoutput/target_0000.png
+CGHoutput/target_0001.png
+CGHoutput/target_0002.png
+CGHoutput/target_0003.png
+CGHoutput/target_0004.png
+CGHoutput/target_0005.png
+output0.jpg
+output0_depthmap.jpg
