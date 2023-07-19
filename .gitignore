@@ -1,0 +1,9 @@
+# This .gitignore file should be placed at the root of project directory
+
+
+# This is the outputs, which changes every time running the code.
+/CGHoutput/
+
+# Ignore image examples
+.png
+.jpg
