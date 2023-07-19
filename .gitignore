@@ -5,5 +5,5 @@
 /CGHoutput/
 
 # Ignore image examples
-.png
-.jpg
+*.png
+*.jpg
