@@ -1,0 +1,2 @@
+[console_scripts]
+text2hologram = text2hologram.__main__:main

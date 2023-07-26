@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: text2hologram
+Version: 0.0.3
+Summary: Generate holograms from text
+Author-email: Pengze Li <linsonng@163.com>
+Project-URL: Homepage, https://github.com/Linsonng/text2hologram
+Keywords: text,hologram
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# From-StableDiffusion-to-Computer-Generated-Holograph
+
+This repository has been established for a pipeline that integrates a stable diffusion model with computer-generated holography. The system creates holography in response to specified prompts.

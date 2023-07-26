@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/text2hologram/__main__.py
+src/text2hologram/config.json
+src/text2hologram/device_setup.py
+src/text2hologram/image_generation.py
+src/text2hologram/model.py
+src/text2hologram/post_processing.py
+src/text2hologram/settings.py
+src/text2hologram/utils.py
+src/text2hologram.egg-info/PKG-INFO
+src/text2hologram.egg-info/SOURCES.txt
+src/text2hologram.egg-info/dependency_links.txt
+src/text2hologram.egg-info/entry_points.txt
+src/text2hologram.egg-info/requires.txt
+src/text2hologram.egg-info/top_level.txt

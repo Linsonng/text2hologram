@@ -1,0 +1,6 @@
+odak
+timm
+transformers
+diffusers
+accelerate
+torch>=2.0.1

@@ -1,0 +1,35 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text2hologram"
+version = "0.0.3"
+description = "Generate holograms from text"
+readme = "README.md"
+authors = [{ name = "Pengze Li", email = "linsonng@163.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["text", "hologram"]
+dependencies = [
+    "odak",
+    "timm",
+    "transformers",
+    "diffusers",
+    "accelerate",
+    "torch>=2.0.1",
+]
+requires-python = ">=3.9"
+
+
+[project.urls]
+Homepage = "https://github.com/Linsonng/text2hologram"
+
+[project.scripts]
+text2hologram = "text2hologram.__main__:main"
