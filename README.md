@@ -11,8 +11,7 @@ You are also welcome to run through Colab.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Linsonng/text2hologram/blob/main/text2hologram.ipynb)
 
 ## Installation
-
-Installation is as easy as running the following pip command:
+To install the text2hologram package, use the following pip command:
 
 ```shell
 pip install text2hologram
@@ -22,7 +21,7 @@ pip install text2hologram
 
 ## Usage
 
-Invoke `text2hologram` from the command line to put it to use. Here's a simple demonstration:
+Invoke `text2hologram` from the command line to use it. Here's a simple demonstration:
 
 ```shell
 text2hologram --device 'cuda' --outputdir './output'
