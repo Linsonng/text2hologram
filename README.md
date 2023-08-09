@@ -6,6 +6,10 @@ This package is compatible with Python 3.9 and above.
 
 For an in-depth look into the code and package structure, feel free to explore the source code here: [Source Code](https://github.com/Linsonng/text2hologram/tree/main/text2hologram/src/text2hologram)
 
+You are also welcome to run through Colab.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Linsonng/text2hologram/blob/main/text2hologram.ipynb)
+
 ## Installation
 
 Installation is as easy as running the following pip command:
@@ -13,6 +17,8 @@ Installation is as easy as running the following pip command:
 ```shell
 pip install text2hologram
 ```
+
+
 
 ## Usage
 
