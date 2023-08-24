@@ -1,8 +1,1 @@
-odak
-timm
-transformers
-diffusers
-accelerate
-torch>=2.0.1
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==2.0.1+cu117
+text2hologram
