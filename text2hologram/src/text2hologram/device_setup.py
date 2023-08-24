@@ -1,10 +1,14 @@
 import torch
 
 def setup_device(settings):
-    device = torch.device(settings['general']['device'])
-    if settings['general']['device'] == "cuda" and torch.cuda.is_available():
-        print("CUDA is available.")
+    if settings['general']['device'] == "cuda":
+        if torch.cuda.is_available():
+            print("CUDA is available, using CUDA.")
+            device = torch.device('cuda')
+        else:
+            print("CUDA is selected in settings but not available, using CPU instead.")
+            device = torch.device('cpu')
     else:
-        device = torch.device("cpu")
-        raise RuntimeError("Sorry, CUDA is not available.")
+        print("CPU is selected in settings, using CPU.")
+        device = torch.device('cpu')
     return device

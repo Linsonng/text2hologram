@@ -12,8 +12,11 @@ def load_settings(config_file=None):
         settings = json.load(f)
     return settings
 
+
 def update_settings(settings, args):
     settings['general']['iterations'] = args.iterations
     settings['diffusion']['inference_steps'] = args.inference_steps
     settings['general']['output directory'] = args.outputdir
+    settings['general']['device'] = args.device
+    settings['diffusion']['super_reso'] = args.super_reso
     return settings

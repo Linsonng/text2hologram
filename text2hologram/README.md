@@ -1,46 +1,44 @@
 # text2hologram
 
-`text2hologram` is an advanced Python package engineered to create holograms directly from textual input. Leveraging the power of libraries like odak, timm, transformers, diffusers, accelerate, and torch, it provides a seamless way to visualize your text in a whole new dimension.
+`text2hologram` is a Python package designed to generate holograms from text. It's built on top of the odak, timm, transformers, diffusers, accelerate, and torch libraries.
 
-This package is compatible with Python 3.9 and above.
+text2hologram supports Python 3.9 and above.
 
-For an in-depth look into the code and package structure, feel free to explore the source code here: [Source Code](https://github.com/Linsonng/text2hologram/tree/main/text2hologram/src/text2hologram)
-
-You are also welcome to run through Colab.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Linsonng/text2hologram/blob/main/text2hologram.ipynb)
+The project's source code is available [here](https://github.com/Linsonng/text2hologram/tree/main/text2hologram/src/text2hologram).
 
 ## Installation
-To install the text2hologram package, use the following pip command:
+
+To install the package, use the following pip command:
 
 ```shell
 pip install text2hologram
 ```
 
-
-
 ## Usage
 
-Invoke `text2hologram` from the command line to use it. Here's a simple demonstration:
+You can use the package from the command line with the `text2hologram` command. 
+
+Here is a simple usage example:
 
 ```shell
 text2hologram --device 'cuda' --outputdir './output'
 ```
 
-In the command above, `text2hologram` starts by verifying the specified device. Upon successful verification, it prompts for a text input, transforms the text into a hologram using the GPU (as specified by 'cuda'), and saves the resultant hologram in the './output' directory.
+The command above checks the device first,and then ask for a text input. generates a hologram from the input text using GPU and saves the output in the './output' directory.
 
-The options provided in the command are as follows:
+Here's a brief description of each option:
 
-- `--device` : The computing device to be used ('cpu' or 'cuda').
-- `--outputdir` : The output directory to store the generated holograms.
-- `--inference_steps` : The number of inference steps to be used for generating the image. Higher the number, more detailed and accurate the hologram. However, it would proportionately increase the computation time and cost.
 
-For additional settings and options, refer to the [config.json](https://github.com/Linsonng/text2hologram/blob/main/text2hologram/src/text2hologram/config.json) file. All settings are named in a self-explanatory manner for ease of use.
+- `--device` : Computation device to use. Can be 'cpu' or 'cuda'.
+- `--outputdir` : Directory to save output files.
+- `--inference_steps` : Inference steps to generate an image. A higher number of inference steps will result in a more accurate and detailed image, but increase the computational cost and time required.
+
+See more settings in [config.json](https://github.com/Linsonng/text2hologram/blob/main/text2hologram/src/text2hologram/config.json). All settings are named in a self-explanatory manner.
 
 ## License
 
-`text2hologram` is licensed under the MIT license. For detailed terms and conditions, please refer to the LICENSE file.
+text2hologram is licensed under the MIT license. The terms of the license can be found in the LICENSE file.
 
 ## Contact
 
-Should you have any queries or require further clarification, don't hesitate to get in touch with Pengze Li at linsonng@163.com.
+For any questions or feedback, you are welcome to reach out to Pengze Li at linsonng@163.com.

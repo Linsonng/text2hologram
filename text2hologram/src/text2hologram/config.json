@@ -9,7 +9,9 @@
         "hologram number": 1
     },
     "diffusion": {
-        "inference_steps": 64
+        "inference_steps": 40,
+        "resolution": [544, 960],
+        "super_reso":true
     },
     "target": {
         "depth filename": "depthmap.jpg",
@@ -30,7 +32,7 @@
     "slm": {
         "model": "Jasper Display Educational 4k",
         "pixel pitch": 0.000008,
-        "resolution": [360, 640]
+        "resolution": [2400,4094]
     },
     "beam": {
         "wavelength": 0.000000515
