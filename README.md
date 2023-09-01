@@ -1,6 +1,6 @@
 # text2hologram
 
-`text2hologram` is an advanced Python package engineered to create holograms directly from textual input. Leveraging the power of libraries like odak, timm, transformers, diffusers, accelerate, and torch, it provides a seamless way to visualize your text in a whole new dimension.
+`text2hologram` is an advanced Python package engineered to create holograms directly from textual input. Leveraging the power of libraries like [odak](https://github.com/kaanaksit/odak), timm, transformers, diffusers, accelerate, and torch, it provides a seamless way to visualize your text in a whole new dimension.
 
 This package is compatible with Python 3.9 and above.
 
