@@ -8,10 +8,13 @@ from diffusers import StableDiffusionPipeline
 # The function takes device (either "cuda" or "cpu") as an argument,
 # loads the MiDaS model, applies necessary transforms,
 # and loads the StableDiffusionPipeline model with the appropriate dtype
-def load_model(device):
+def load_model(device,model_id = "runwayml/stable-diffusion-v1-5",print_id = False):
     # Define the model_id and model_type for loading the MiDaS model
-    model_id = "dreamlike-art/dreamlike-photoreal-2.0"
+
     model_type = "DPT_Large"  
+    
+    if print_id:
+        print(model_id,model_type)
     
     # Load the MiDaS model
     midas = torch.hub.load("intel-isl/MiDaS", model_type)
@@ -21,9 +24,7 @@ def load_model(device):
     
     # Load the MiDaS transforms
     midas_transforms = torch.hub.load("intel-isl/MiDaS", "transforms")
-    
-    # Set the scheduler and model_revision to None as they are not required here
-    scheduler = None
+
     model_revision = None
     
     # Get the appropriate dtype for tensor computations based on the device

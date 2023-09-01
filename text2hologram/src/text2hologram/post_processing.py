@@ -111,3 +111,17 @@ def save(settings, device, phase, reconstructions, targets, focus_target, depth,
     odak.learn.tools.save_torch_tensor('{}/data.pt'.format(settings["general"]["output directory"]), data)
     print('Outputs stored at ' + os.path.expanduser(settings["general"]["output directory"]))
 
+def perform_cgh_and_rename(settings, image_path, output_directory, new_file_name, wavelength=None, color_channel=None):
+    if wavelength:
+        settings['beam']['wavelength'] = wavelength
+    if color_channel:
+        settings['target']['color channel'] = color_channel
+    
+    torch.cuda.empty_cache()
+    cgh(settings, image_path)
+    
+    default_output_file = os.path.join(output_directory, 'phase_0000.png')
+    renamed_output_file = os.path.join(output_directory, new_file_name)
+    
+    if os.path.exists(default_output_file):
+        os.rename(default_output_file, renamed_output_file)

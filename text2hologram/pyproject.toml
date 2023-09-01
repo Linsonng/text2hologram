@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "text2hologram"
-version = "0.1.5"
+version = "0.1.5.3"
 description = "Generate holograms from text"
 readme = "README.md"
 authors = [{ name = "Pengze Li", email = "linsonng@163.com" }]

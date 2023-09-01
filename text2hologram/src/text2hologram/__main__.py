@@ -76,7 +76,7 @@ def main():
 
     torch.cuda.empty_cache()
     # Perform CGH
-    # cgh(settings, image_name)
+    cgh(settings, image_name)
     
     # Wait for the user to press Enter to exit
     input("Press Enter to exit...")
