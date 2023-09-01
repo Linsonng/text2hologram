@@ -37,10 +37,6 @@ The options provided in the command are as follows:
 
 For additional settings and options, refer to the [config.json](https://github.com/Linsonng/text2hologram/blob/main/text2hologram/src/text2hologram/config.json) file. All settings are named in a self-explanatory manner for ease of use.
 
-## License
-
-`text2hologram` is licensed under the MIT license. For detailed terms and conditions, please refer to the LICENSE file.
-
 ## Contact
 
 Should you have any queries or require further clarification, don't hesitate to get in touch with Pengze Li at linsonng@163.com.
