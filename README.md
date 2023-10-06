@@ -39,5 +39,4 @@ For additional settings and options, refer to the [config.json](https://github.c
 
 ## Contact
 
-Should you have any queries or require further clarification, don't hesitate to get in touch with [Pengze Li](https://linsonng.github.io/)
- at linsonng@163.com.
+Should you have any queries or require further clarification, don't hesitate to get in touch with [Pengze Li](https://linsonng.github.io/)  at linsonng@163.com.
